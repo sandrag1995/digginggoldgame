@@ -7,7 +7,7 @@ import EnergyBar from "./components/golddigginggame/EnergyBar";
 import DigButton from "./components/golddigginggame/DigButton";
 import React, {useState} from "react"
 
-function task10() {
+function App() {
 
     const [fullEnergy, setFullEnergy] = useState(100);
     const [defaultGold, setDefaultGold] = useState(0);
@@ -137,7 +137,7 @@ function task10() {
 
 }
 
-export default task10;
+export default App;
 
 // const min = 0;
 // const max = 1.3;
